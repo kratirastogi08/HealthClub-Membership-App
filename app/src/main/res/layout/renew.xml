@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="MemberId"
+            android:id="@+id/txtmemid"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PlanId"
+                android:layout_marginLeft="10dp"
+                android:textSize="24dp"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spplnid">
+
+            </Spinner>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Date Of Membership"
+            android:id="@+id/txtdateom"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Date Of Expiry"
+            android:id="@+id/txtdateoe"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="RENEW"
+        android:id="@+id/btnrenew"
+        android:background="#389e45"
+        android:textColor="#fefeff"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        />
+</LinearLayout>

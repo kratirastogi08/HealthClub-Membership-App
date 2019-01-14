@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera1"
+            android:icon="@mipmap/homme"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/member1"
+            android:title="Add Member"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/up"
+            android:title="Update MemberInfo" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/del"
+            android:title="Delete Member" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/phone"
+            android:title="Contact" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/renew"
+                android:title="Renew" />
+
+    </group>
+
+    <item android:title="View Members">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/report"
+                android:title="Planwise" />
+            <item
+                android:id="@+id/nav_share1"
+                android:icon="@mipmap/calendar"
+                android:title="Datewise" />
+
+        </menu>
+    </item>
+
+</menu>

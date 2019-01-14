@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/male"/>
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="2">
+                    <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male:"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/male"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#060606"
+                            />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/female"/>
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="2">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Female:"
+                            android:textSize="25sp"
+                            android:layout_marginLeft="5dp"
+                            android:textStyle="bold"
+                            android:textColor="#060606"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/female"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#060606"
+                            />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/total"/>
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="2">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total:"
+                            android:textSize="25sp"
+                            android:layout_marginLeft="5dp"
+                            android:textStyle="bold"
+                            android:textColor="#060606"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/all"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#060606"
+                            />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

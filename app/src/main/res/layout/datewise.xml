@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:stretchColumns="*">
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="MemberId"
+               android:textSize="15sp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Date Of Membership"
+               android:textSize="15sp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Date Of Expiry"
+               android:textSize="15sp"/>
+
+       </TableRow>
+
+   </TableLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lisv">
+
+    </ListView>
+
+</LinearLayout>
